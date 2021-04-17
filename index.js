@@ -5,6 +5,10 @@ const port = 8000;
 //use express routes
 app.use("/", require("./routes"));
 
+//set up view enjine
+app.set("view engine", "ejs");
+app.set("views", "./views");
+
 app.listen(port, function (err) {
   if (err) {
     console.log(`err in server:${err}`);
