@@ -1,4 +1,4 @@
 # codeial
 
-## manual-local-auth branch
-in this branch i used Manula Authenction
+## Branch(manual-local-auth )
+in this branch i used Manual Authenction
